@@ -47,7 +47,7 @@ const Service = () => {
                 </div>
                 <div className=" relative w-full md:w-2/5 lg:w-[33%] h-screen mx-10">
                     <Image
-                        src="https://i.ibb.co.com/PrdYY1s/bride.jpg"
+                        src="https://i.ibb.co.com/CJrm5cs/w8.jpg"
                         alt="bg picture"
                         layout="fill" 
                         objectFit="cover" />
