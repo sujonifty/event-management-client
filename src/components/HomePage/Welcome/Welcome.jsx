@@ -5,14 +5,15 @@ const Welcome = () => {
     return (
         <section>
             <div className="w-full p-4 md:w-4/5 mx-auto mb-10">
-                <h5 className="text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
+                <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
                     Welcome To <span className='text-orange-500'>HeartBond</span>
                 </h5>
-                <p className="text-center text-lg font-normal text-gray-700 dark:text-gray-400">
-                    From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,<br /> We offer full range of Events Management Services that scale to your needs & budget.
+                <p className="text-wrap md:text-center md:text-lg font-normal text-gray-700 dark:text-gray-400">
+                    <span className='md:block'>From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span> 
+                    We offer full range of Events Management Services that scale to your needs & budget.
                 </p>
             </div>
-            <div className='flex justify-center items-center mx-auto space-y-4 md:space-x-10'>
+            <div className='flex flex-col md:flex-row justify-center items-center mx-auto space-y-10 md:space-x-10'>
                 <Card className="max-w-sm">
                     <h5 className="text-2xl font-bold tracking-tight text-gray-600 dark:text-white">
                         Great Services
