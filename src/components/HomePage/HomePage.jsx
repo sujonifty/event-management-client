@@ -3,6 +3,7 @@ import Banner from './Banner/Banner';
 import Welcome from './Welcome/Welcome';
 import Service from './Service/Service';
 import UpComingEvent from './UpComingEvent/UpComingEvent';
+import Plan from './Plan/Plan';
 
 const HomePage = () => {
     return (
@@ -11,6 +12,7 @@ const HomePage = () => {
             <Welcome></Welcome>
             <Service></Service>
             <UpComingEvent></UpComingEvent>
+            <Plan></Plan>
         </div>
     );
 };
