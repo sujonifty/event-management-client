@@ -6,6 +6,7 @@ import UpComingEvent from './UpComingEvent/UpComingEvent';
 import Plan from './Plan/Plan';
 import Contact from './Contact/Contact';
 import OurTeam from './ourTeam/OurTeam';
+import Feature from './Feature/Feature';
 
 const HomePage = () => {
     return (
@@ -16,6 +17,7 @@ const HomePage = () => {
             <UpComingEvent></UpComingEvent>
             <Plan></Plan>
             <OurTeam></OurTeam>
+            <Feature></Feature>
             <Contact></Contact>
         </div>
     );
