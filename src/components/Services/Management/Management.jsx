@@ -4,7 +4,7 @@ import React from 'react';
 const Management = () => {
     return (
         <section>
-            <div className="w-full p-4 md:w-4/5 mx-auto mt-10">
+            <div className="w-full p-4 md:w-4/5 mx-auto my-10">
                 <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
                     Our <span className='text-orange-500'>Event Management</span>Specialists.
                 </h5>

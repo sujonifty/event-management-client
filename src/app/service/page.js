@@ -1,12 +1,10 @@
-import Header from "@/components/Services/Header/Header";
-import Management from "@/components/Services/Management/Management";
+import Services from "@/components/Services/Services";
 
 
-export default function ServicePage() {
+export default function Home() {
   return (
     <div>
-      <Header></Header>
-      <Management></Management>
+      <Services></Services>
     </div>
   );
 }
