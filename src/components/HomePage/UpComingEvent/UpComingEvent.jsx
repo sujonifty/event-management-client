@@ -95,6 +95,22 @@ const UpComingEvent = () => {
                     </div>
                 </div>
             </section>
+            <div
+        className="h-32 md:h-64 flex justify-center items-center relative"
+        style={{
+          backgroundImage:
+            "url(https://i.ibb.co.com/JyN401J/s1.webp)",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Background overlay */}
+        <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+        {/* Hero content */}
+        <div className="relative z-10 text-center  ">
+          <h1 className='text-xl md:text-3xl font-bold uppercase text-white'>With a full range of Event Planning Services, our Clients have Successful & Prosperous Events!</h1>
+        </div>
+      </div>
         </div>
     );
 };
