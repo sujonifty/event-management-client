@@ -47,7 +47,7 @@ const Service = () => {
                         <Card
                             className="max-w-sm"
                             imgAlt="Meaningful alt text for an image that is not purely decorative"
-                            imgSrc="https://i.ibb.co.com/Y8bQsBb/w4.jpg"
+                            imgSrc="https://i.ibb.co.com/fGspm7B/birthday.jpg"
                         >
                             <h5 className="text-2xl font-bold tracking-tight text-gray-600 dark:text-white">
                                 Birthday Parties
@@ -68,7 +68,7 @@ const Service = () => {
                         <Card
                             className="max-w-sm"
                             imgAlt="Meaningful alt text for an image that is not purely decorative"
-                            imgSrc="https://i.ibb.co.com/Y8bQsBb/w4.jpg"
+                            imgSrc="https://i.ibb.co.com/qxg60bL/social-event.jpg"
                         >
                             <h5 className="text-2xl font-bold tracking-tight text-gray-600 dark:text-white">
                                 Social events
@@ -80,7 +80,7 @@ const Service = () => {
                         <Card
                             className="max-w-sm"
                             imgAlt="Meaningful alt text for an image that is not purely decorative"
-                            imgSrc="https://i.ibb.co.com/Y8bQsBb/w4.jpg"
+                            imgSrc="https://i.ibb.co.com/JnjxVKZ/samenar.jpg"
                         >
                             <h5 className="text-2xl font-bold tracking-tight text-gray-600 dark:text-white">
                                 Corporate seminars
