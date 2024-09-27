@@ -36,7 +36,7 @@ const Nav = () => {
           <Navbar.Link href="#" active>
             Home
           </Navbar.Link>
-          <Navbar.Link href="#">Services</Navbar.Link>
+          <Navbar.Link href="/service">Services</Navbar.Link>
           <Navbar.Link href="#">Events</Navbar.Link>
           <Navbar.Link href="#">About</Navbar.Link>
           <Navbar.Link href="#">Contact</Navbar.Link>
