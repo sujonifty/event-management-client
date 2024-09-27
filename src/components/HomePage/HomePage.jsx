@@ -7,6 +7,7 @@ import Plan from './Plan/Plan';
 import Contact from './Contact/Contact';
 import OurTeam from './ourTeam/OurTeam';
 import Feature from './Feature/Feature';
+import Review from './Review/Review';
 
 const HomePage = () => {
     return (
@@ -17,6 +18,7 @@ const HomePage = () => {
             <UpComingEvent></UpComingEvent>
             <Plan></Plan>
             <OurTeam></OurTeam>
+            <Review></Review>
             <Feature></Feature>
             <Contact></Contact>
         </div>

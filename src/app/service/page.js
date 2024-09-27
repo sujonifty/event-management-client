@@ -1,11 +1,9 @@
-import { Button, Card } from 'flowbite-react';
-import Image from 'next/image';
-import React from 'react';
 
-const Feature = () => {
-    return (
-        <div>
-            <div
+
+export default function Home() {
+  return (
+    <div>
+    <div
                 className="h-screen flex justify-center items-center relative"
                 style={{
                     backgroundImage:
@@ -21,8 +19,6 @@ const Feature = () => {
                     <h1 className='text-5xl text-white'>Hello</h1>
                 </div>
             </div>
-        </div>
-    );
-};
-
-export default Feature;
+    </div>
+  );
+}
