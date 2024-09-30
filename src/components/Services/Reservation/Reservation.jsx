@@ -17,7 +17,7 @@ const Reservation = () => {
             {/* Background overlay */}
             <div className="absolute inset-0 bg-white bg-opacity-80"></div>
 
-            {/* Hero content */}
+            {/* content */}
             <div className="relative z-10 text-center">
                 <div className=" grid max-w-screen-xl grid-cols-1 justify-center gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
                     <div className="flex flex-col justify-center">

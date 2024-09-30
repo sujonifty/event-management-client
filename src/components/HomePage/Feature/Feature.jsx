@@ -17,7 +17,7 @@ const Feature = () => {
             {/* Background overlay */}
             <div className="absolute inset-0 bg-black bg-opacity-60"></div>
 
-            {/* Hero content */}
+            {/* content */}
             <div className="relative z-10 text-center">
                 <div className="flex justify-center items-center my-4 lg:my-16 flex-col md:flex-row gap-4 sm:h-64 xl:h-80 2xl:h-96">
                     <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">

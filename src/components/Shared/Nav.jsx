@@ -38,7 +38,7 @@ const Nav = () => {
           </Navbar.Link>
           <Navbar.Link href="/service">Services</Navbar.Link>
           <Navbar.Link href="/event">Events</Navbar.Link>
-          <Navbar.Link href="#">About</Navbar.Link>
+          <Navbar.Link href="/about">About</Navbar.Link>
           <Navbar.Link href="#">Contact</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>

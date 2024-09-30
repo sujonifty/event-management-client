@@ -1,7 +1,7 @@
 import Services from "@/components/Services/Services";
 
 
-export default function Home() {
+export default function ServicePage() {
   return (
     <div>
       <Services></Services>

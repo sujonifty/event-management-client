@@ -106,7 +106,7 @@ const UpComingEvent = () => {
       >
         {/* Background overlay */}
         <div className="absolute inset-0 bg-black bg-opacity-30"></div>
-        {/* Hero content */}
+        {/* content */}
         <div className="relative z-10 text-center  ">
           <h1 className='text-xl md:text-3xl font-bold uppercase text-white'>With a full range of Event Planning Services, our Clients have Successful & Prosperous Events!</h1>
         </div>
