@@ -6,10 +6,24 @@ import { RiPoliceBadgeFill } from "react-icons/ri";
 const AboutHeader = () => {
     return (
         <div>
+            <div
+                className="h-32 md:h-64 flex justify-center items-center relative"
+                style={{
+                    backgroundImage:
+                        "url(https://i.ibb.co.com/NN6fpc2/anout.jpg)",
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                }}
+            >
+                {/* Background overlay */}
+                <div className="absolute inset-0 bg-white bg-opacity-40"></div>
+                {/* content */}
+                
+            </div>
             <div className=" grid max-w-screen-xl grid-cols-1 justify-center gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
                 <div className="flex flex-col justify-center">
-                    <h2 className="text-4xl font-bold leading-tight lg:text-5xl text-gray-800">
-                        We Are Event Planner & Organizer Since 2011
+                    <h2 className="text-4xl font-bold leading-tight lg:text-4xl text-gray-600">
+                        We Are Event Organizer Since 2011
                     </h2>
                     <ul className="my-7 space-y-5">
                         <li className="flex space-x-3">
@@ -105,14 +119,14 @@ const AboutHeader = () => {
                     }}
                 >
                     {/* Background overlay */}
-                    <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg"></div>
+                    <div className="absolute inset-0 bg-black bg-opacity-60 rounded-lg"></div>
                     {/* content */}
-                    <div className="relative z-10 space-y-5 text-center  ">
-                        < RiPoliceBadgeFill  className='text-7xl text-yellow-400 mx-auto'/>
+                    <div className="relative z-10 space-y-5 flex flex-col justify-center items-center  ">
+                        < RiPoliceBadgeFill className='text-7xl text-yellow-400 mx-auto' />
 
-                        <h1 className='text-3xl md:text-6xl font-bold uppercase text-white'>10 +</h1>
+                        <h1 className='text-xl md:text-5xl font-bold uppercase text-white'>10 +</h1>
                         <h1 className='text-2xl md:text-3xl font-bold uppercase text-white'>Years Of Experiences</h1>
-                        
+
                     </div>
                 </div>
             </div>
