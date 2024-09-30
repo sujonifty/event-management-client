@@ -9,8 +9,8 @@ const Services = () => {
         <div>
             <Header></Header>
             <Management></Management>
-            <Reservation></Reservation>
             <Package></Package>
+            <Reservation></Reservation>
         </div>
     );
 };
