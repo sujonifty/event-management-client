@@ -19,7 +19,7 @@ const Reservation = () => {
 
             {/* Hero content */}
             <div className="relative z-10 text-center">
-                <div className="grid max-w-screen-xl grid-cols-1 justify-center gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+                <div className=" grid max-w-screen-xl grid-cols-1 justify-center gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
                     <div className="flex flex-col justify-center">
                         <h2 className="text-4xl font-bold leading-tight lg:text-5xl text-gray-800">
                             Make a <span className='text-orange-500'>Reservation</span>
@@ -29,13 +29,13 @@ const Reservation = () => {
                         </p>
                         <Image
                             className='mx-auto rounded-lg shadow-lg'
-                            src="https://i.ibb.co/PrKGgxv/w24.jpg"
+                            src="https://i.ibb.co.com/hCvgJp2/online.webp"
                             alt="Event image"
                             width={500}
                             height={600}
                         />
                     </div>
-                    <div className="p-8 space-y-6 bg-white rounded-lg shadow-md">
+                    <div className="p-8 space-y-6 bg-slate-50 rounded-lg shadow-md">
                         <h3 className="text-2xl font-semibold text-gray-800">Contact Our Platform</h3>
                         <div className="space-y-4">
                             <TextInput
@@ -64,24 +64,36 @@ const Reservation = () => {
                                 placeholder="Add date"
                                 required
                             />
+                            <div className='flex justify-between'>
                                 <Dropdown
                                     label="Select Your Event..."
                                     dismissOnClick={false}
-                                   
+
                                 >
                                     <Dropdown.Item>Wedding</Dropdown.Item>
                                     <Dropdown.Item>Birthday</Dropdown.Item>
                                     <Dropdown.Item>Social</Dropdown.Item>
                                     <Dropdown.Item>Corporate</Dropdown.Item>
                                 </Dropdown>
+                                <Dropdown
+                                    label="Select Our Branch"
+                                    dismissOnClick={false}
+
+                                >
+                                    <Dropdown.Item>Dhaka</Dropdown.Item>
+                                    <Dropdown.Item>Rajshahi</Dropdown.Item>
+                                    <Dropdown.Item>Chittagong</Dropdown.Item>
+                                </Dropdown>
+                            </div>
                         </div>
                         <div className="text-center">
                             <Button className='mx-auto w-full'>
-                                Subscribe
+                                Reservation
                             </Button>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     );
