@@ -15,7 +15,7 @@ const Reservation = () => {
             }}
         >
             {/* Background overlay */}
-            <div className="absolute inset-0 bg-white bg-opacity-80"></div>
+            <div className="absolute inset-0 bg-white bg-opacity-60"></div>
 
             {/* content */}
             <div className="relative z-10 text-center">
@@ -93,7 +93,7 @@ const Reservation = () => {
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     );

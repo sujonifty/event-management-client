@@ -7,9 +7,9 @@ const Nav = () => {
         <Navbar fluid rounded className="border-b-2">
         <Navbar.Brand href="/">
           {/* <img src="./../../images/logo.png" className="mr-3 h-6 sm:h-9" alt="" /> */}
-          <div className="flex flex-col justify-center items-center border bg-slate-500 p-1 rounded-lg">
+          <div className="flex flex-col justify-center items-center border bg-cyan-100 p-2 rounded-lg">
           <p className=" self-center text-2xl font-semibold text-orange-500">HeartBond</p>
-          <small className="-mt-1 uppercase text-white">Forever Starts Here</small>
+          <small className="-mt-1 uppercase text-blue-500 font-semibold">Forever Starts Here</small>
           </div>
         </Navbar.Brand>
         <div className="flex md:order-2">
@@ -39,7 +39,6 @@ const Nav = () => {
           <Navbar.Link href="/service">Services</Navbar.Link>
           <Navbar.Link href="/event">Events</Navbar.Link>
           <Navbar.Link href="/about">About</Navbar.Link>
-          <Navbar.Link href="#">Contact</Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
     );

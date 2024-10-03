@@ -16,7 +16,7 @@ const Banner = () => {
         />
         <Image
         className='bg-cover'
-          src="https://i.ibb.co.com/9bST2sy/w.jpg"
+          src="https://i.ibb.co.com/2PZZ94w/w21.jpg"
           alt="bg picture"
           width={500}
           height={500}
