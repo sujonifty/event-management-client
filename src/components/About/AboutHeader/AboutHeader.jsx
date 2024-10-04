@@ -1,5 +1,4 @@
 import { Button } from 'flowbite-react';
-import Image from 'next/image';
 import React from 'react';
 import { RiPoliceBadgeFill } from "react-icons/ri";
 
@@ -23,7 +22,7 @@ const AboutHeader = () => {
             <div className=" grid max-w-screen-xl grid-cols-1 justify-center gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
                 <div className="flex flex-col justify-center">
                     <h2 className="text-4xl font-bold leading-tight lg:text-4xl text-gray-600">
-                        We Are Event Organizer Since 2011
+                        We Are Event Organizer Since 2010
                     </h2>
                     <ul className="my-7 space-y-5">
                         <li className="flex space-x-3">
