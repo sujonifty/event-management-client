@@ -21,7 +21,7 @@ const Service = () => {
             <div className="relative z-10 py-10 text-center">
                 <div className="w-full p-4 bg-cyan-50  mx-auto mb-10">
                     <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
-                        <span className="text-orange-500">HeartBond"s</span> services
+                        <span className="text-orange-500">HeartBond</span> services
                     </h5>
                     <p className="text-wrap md:text-center mb-5 md:text-lg font-normal text-gray-700 dark:text-gray-400">
                         We make your events smart & impactful by personalised event management services.

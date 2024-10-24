@@ -7,7 +7,7 @@ const Review = () => {
         <div className="my-4 lg:my-16">
             <div className="w-full p-4  bg-cyan-50  mx-auto mb-10">
                     <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
-                        Our Customer's <span className="text-orange-500">Reviews</span>
+                        Our Customers <span className="text-orange-500">Reviews</span>
                     </h5>
                     <p className="text-wrap mb-10 md:text-center  font-normal text-gray-500 dark:text-gray-400">
                         <span className="md:block">From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span>

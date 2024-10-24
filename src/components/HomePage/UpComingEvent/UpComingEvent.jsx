@@ -8,7 +8,7 @@ const UpComingEvent = () => {
         <div>
             <div className="w-full mx-auto p-4 lg:p-8 md:w-4/5 mt-16">
                 <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight t text-gray-600 dark:text-white">
-                    <span className="text-orange-500">HeartBond"s</span> Upcoming Events
+                    <span className="text-orange-500">HeartBond</span> Upcoming Events
                 </h5>
                 <p className="text-wrap mb-5 md:text-lg font-normal text-gray-700 dark:text-gray-400">
                     We make your events smart & impactful by personalised event management services.
