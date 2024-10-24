@@ -1,7 +1,7 @@
-import { Button, Card } from 'flowbite-react';
-import Link from 'next/link';
-import React from 'react';
-import Header from '../Services/Header/Header';
+import { Button, Card } from "flowbite-react";
+import Link from "next/link";
+import React from "react";
+import Header from "../Services/Header/Header";
 
 const Event = () => {
     return (
@@ -22,13 +22,13 @@ const Event = () => {
             <div className="mx-auto relative z-10 text-center">
                 <div className="w-full p-4 bg-cyan-50  mx-auto mb-10">
                     <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
-                        <span className='text-orange-500'>HeartBond's</span> services
+                        <span className="text-orange-500">HeartBond"s</span> services
                     </h5>
                     <p className="text-wrap md:text-center mb-5 md:text-lg font-normal text-gray-700 dark:text-gray-400">
                         We make your events smart & impactful by personalised event management services.
                     </p>
                     <p className="text-wrap mb-10 md:text-center  font-normal text-gray-500 dark:text-gray-400">
-                        <span className='md:block'>From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span>
+                        <span className="md:block">From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span>
                         We offer full range of Events Management Services that scale to your needs & budget.
                     </p>
                 </div>
@@ -47,7 +47,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -62,7 +62,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
 
@@ -78,7 +78,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -93,7 +93,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -108,7 +108,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -123,7 +123,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
 
@@ -139,7 +139,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -154,7 +154,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -169,7 +169,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -184,7 +184,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
 
@@ -200,7 +200,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -215,7 +215,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -230,7 +230,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -245,7 +245,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
 
@@ -261,7 +261,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -276,7 +276,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -291,7 +291,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -306,7 +306,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
 
@@ -322,7 +322,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
                     <Card
@@ -337,7 +337,7 @@ const Event = () => {
                             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
                         </p>
                         <Link href="/reservation" >
-                            <Button className='mx-auto'>Booking Now</Button>
+                            <Button className="mx-auto">Booking Now</Button>
                         </Link>
                     </Card>
 

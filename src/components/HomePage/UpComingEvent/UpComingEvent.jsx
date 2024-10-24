@@ -1,14 +1,14 @@
 "use client";
 
 import Image from "next/image";
-import React from 'react';
+import React from "react";
 
 const UpComingEvent = () => {
     return (
         <div>
             <div className="w-full mx-auto p-4 lg:p-8 md:w-4/5 mt-16">
                 <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight t text-gray-600 dark:text-white">
-                    <span className='text-orange-500'>HeartBond's</span> Upcoming Events
+                    <span className="text-orange-500">HeartBond"s</span> Upcoming Events
                 </h5>
                 <p className="text-wrap mb-5 md:text-lg font-normal text-gray-700 dark:text-gray-400">
                     We make your events smart & impactful by personalised event management services.
@@ -20,7 +20,7 @@ const UpComingEvent = () => {
                 <div className="container mx-auto space-y-12">
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
                         <Image
-                            className='bg-cover'
+                            className="bg-cover"
                             src="https://i.ibb.co.com/2PZZ94w/w21.jpg"
                             alt="bg picture"
                             width={500}
@@ -45,7 +45,7 @@ const UpComingEvent = () => {
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row-reverse">
                         <Image
-                            className='bg-cover'
+                            className="bg-cover"
                             src="https://i.ibb.co.com/41zvdty/b1.jpg"
                             alt="bg picture"
                             width={500}
@@ -70,7 +70,7 @@ const UpComingEvent = () => {
                     </div>
                     <div className="flex flex-col overflow-hidden rounded-md shadow-sm lg:flex-row">
                         <Image
-                            className='bg-cover'
+                            className="bg-cover"
                             src="https://i.ibb.co.com/TtXzCHq/w25.jpg"
                             alt="bg picture"
                             width={500}
@@ -108,7 +108,7 @@ const UpComingEvent = () => {
         <div className="absolute inset-0 bg-black bg-opacity-30"></div>
         {/* content */}
         <div className="relative z-10 text-center  ">
-          <h1 className='text-xl md:text-3xl font-bold uppercase text-white'>With a full range of Event Planning Services, our Clients have Successful & Prosperous Events!</h1>
+          <h1 className="text-xl md:text-3xl font-bold uppercase text-white">With a full range of Event Planning Services, our Clients have Successful & Prosperous Events!</h1>
         </div>
       </div>
         </div>

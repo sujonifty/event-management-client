@@ -1,16 +1,16 @@
-import { Card, Carousel } from 'flowbite-react';
-import Image from 'next/image';
-import React from 'react';
+import { Card, Carousel } from "flowbite-react";
+import Image from "next/image";
+import React from "react";
 
 const Review = () => {
     return (
-        <div className='my-4 lg:my-16'>
+        <div className="my-4 lg:my-16">
             <div className="w-full p-4  bg-cyan-50  mx-auto mb-10">
                     <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
-                        Our Customer's <span className='text-orange-500'>Reviews</span>
+                        Our Customer's <span className="text-orange-500">Reviews</span>
                     </h5>
                     <p className="text-wrap mb-10 md:text-center  font-normal text-gray-500 dark:text-gray-400">
-                        <span className='md:block'>From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span>
+                        <span className="md:block">From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span>
                         We offer full range of Events Management Services that scale to your needs & budget.
                     </p>
                 </div>
@@ -36,7 +36,7 @@ const Review = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center p-4 rounded-b-lg bg-cyan-50 text-gray-600">
                                 <Image
-                                    className='mx-auto rounded-full border -mt-16'
+                                    className="mx-auto rounded-full border -mt-16"
                                     src="https://i.ibb.co.com/Ykfr2zF/w19.png"
                                     alt="bg picture"
                                     width={100}
@@ -139,7 +139,7 @@ const Review = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center p-4 rounded-b-lg bg-cyan-50 text-gray-600">
                                 <Image
-                                    className='mx-auto rounded-full border -mt-16'
+                                    className="mx-auto rounded-full border -mt-16"
                                     src="https://i.ibb.co.com/Ykfr2zF/w19.png"
                                     alt="bg picture"
                                     width={100}
@@ -242,7 +242,7 @@ const Review = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center p-4 rounded-b-lg bg-cyan-50 text-gray-600">
                                 <Image
-                                    className='mx-auto rounded-full border -mt-16'
+                                    className="mx-auto rounded-full border -mt-16"
                                     src="https://i.ibb.co.com/Ykfr2zF/w19.png"
                                     alt="bg picture"
                                     width={100}
@@ -345,7 +345,7 @@ const Review = () => {
                             </div>
                             <div className="flex flex-col items-center justify-center p-4 rounded-b-lg bg-cyan-50 text-gray-600">
                                 <Image
-                                    className='mx-auto rounded-full border -mt-16'
+                                    className="mx-auto rounded-full border -mt-16"
                                     src="https://i.ibb.co.com/Ykfr2zF/w19.png"
                                     alt="bg picture"
                                     width={100}

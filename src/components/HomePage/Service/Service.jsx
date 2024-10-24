@@ -2,7 +2,7 @@
 import { Card } from "flowbite-react";
 import Image from "next/image";
 import Link from "next/link";
-import React from 'react';
+import React from "react";
 
 const Service = () => {
     return (
@@ -21,19 +21,19 @@ const Service = () => {
             <div className="relative z-10 py-10 text-center">
                 <div className="w-full p-4 bg-cyan-50  mx-auto mb-10">
                     <h5 className="text-4xl md:text-6xl mb-2 font-bold tracking-tight text-center  text-gray-600 dark:text-white">
-                        <span className='text-orange-500'>HeartBond's</span> services
+                        <span className="text-orange-500">HeartBond"s</span> services
                     </h5>
                     <p className="text-wrap md:text-center mb-5 md:text-lg font-normal text-gray-700 dark:text-gray-400">
                         We make your events smart & impactful by personalised event management services.
                     </p>
                     <p className="text-wrap mb-10 md:text-center  font-normal text-gray-500 dark:text-gray-400">
-                        <span className='md:block'>From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span>
+                        <span className="md:block">From Wedding Functions to Birthday Parties or Corporate Events to Musical Functions,</span>
                         We offer full range of Events Management Services that scale to your needs & budget.
                     </p>
                 </div>
                 <div className=" flex flex-col md:flex-row justify-center items-center ">
                     <div className="space-y-12">
-                        <Link href='/event'>
+                        <Link href="/event">
                             <Card
                                 className="max-w-sm mb-6 hover:-translate-x-10 hover:-translate-y-10 "
                                 imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -47,7 +47,7 @@ const Service = () => {
                                 </p>
                             </Card>
                         </Link>
-                        <Link href='/event'>
+                        <Link href="/event">
                             <Card
                                 className="max-w-sm mb-6 hover:-translate-x-10 hover:-translate-y-10"
                                 imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -70,7 +70,7 @@ const Service = () => {
                             objectFit="cover" />
                     </div>
                     <div className="space-y-12">
-                        <Link href='/event' >
+                        <Link href="/event" >
                             <Card
                                 className="max-w-sm mb-6 hover:translate-x-10 hover:translate-y-10"
                                 imgAlt="Meaningful alt text for an image that is not purely decorative"
@@ -85,7 +85,7 @@ const Service = () => {
                             </Card>
                         </Link>
 
-                        <Link href='/event'>
+                        <Link href="/event">
                             <Card
                                 className="max-w-sm mb-6 hover:translate-x-10 hover:translate-y-10"
                                 imgAlt="Meaningful alt text for an image that is not purely decorative"
